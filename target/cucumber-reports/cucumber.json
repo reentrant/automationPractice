@@ -1,0 +1,202 @@
+[
+  {
+    "line": 11,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-16T02:41:46.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3261826491,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterAccountTest.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Open the Home Page",
+        "description": "",
+        "id": "registering-new-account;open-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3747201353,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I open the Home Page",
+            "match": {
+              "location": "RegisterAccountTest.i_open_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45307315,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I locate the sign in button",
+            "match": {
+              "location": "RegisterAccountTest.i_locate_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1072756854,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click it and I reach the registering page",
+            "match": {
+              "location": "RegisterAccountTest.i_reach_the_registering_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Start"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T02:41:54.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13948898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterAccountTest.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Create An Account",
+        "description": "",
+        "id": "registering-new-account;create-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32686738,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am in the authentication page",
+            "match": {
+              "location": "RegisterAccountTest.i_am_in_the_authentication_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173751294,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill the email address to create an account with an unique email",
+            "match": {
+              "location": "RegisterAccountTest.i_fill_the_email_address_to_create_an_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1435253417,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I get the create an account form",
+            "match": {
+              "location": "RegisterAccountTest.i_get_the_create_an_account_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Authentication"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-16T02:41:56.322Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10560758,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterAccountTest.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Registering An Account",
+        "description": "",
+        "id": "registering-new-account;registering-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1361804130,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I fill the fields with correct data",
+            "match": {
+              "location": "RegisterAccountTest.i_fill_the_fields_with_correct_data()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1100091245,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click the register button",
+            "match": {
+              "location": "RegisterAccountTest.i_click_the_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29342806,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "my account is created",
+            "match": {
+              "location": "RegisterAccountTest.my_account_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Submit"
+          }
+        ]
+      }
+    ],
+    "name": "Registering new account",
+    "description": "",
+    "id": "registering-new-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RegisterAccount.feature",
+    "tags": []
+  }
+]

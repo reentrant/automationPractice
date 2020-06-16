@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="12.32318">
+<testcase classname="Registering new account" name="Open the Home Page" time="8.158299">
+<system-out><![CDATA[Given I open the Home Page..................................................passed
+When I locate the sign in button............................................passed
+Then I click it and I reach the registering page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registering new account" name="Create An Account" time="1.660411">
+<system-out><![CDATA[Given I am in the authentication page.......................................passed
+When I fill the email address to create an account with an unique email.....passed
+Then I get the create an account form.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registering new account" name="Registering An Account" time="2.50447">
+<system-out><![CDATA[Given I fill the fields with correct data...................................passed
+When I click the register button............................................passed
+Then my account is created..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
